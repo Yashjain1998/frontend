@@ -1,0 +1,171 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+
+}
+#organic-header{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: end;
+}
+#organic-header>ul{
+    list-style: none;
+    display: flex;
+    color: #fff;
+    font-size: x-large;
+    align-items: end;
+    justify-content: space-between;
+}
+#organic-header>ul li{
+    padding: 1rem;
+}
+#organic-header>ul>li>span{
+    position: relative;
+}
+#organic-header>ul>li>span>span{
+    background-color: red;
+    border-radius: 50%;
+    padding-inline: 5px;
+    font-size: small;
+    position: absolute;
+    top: -0.2rem;
+    right: -0.5rem;
+    left: auto;
+}
+#organic-nav{
+    display: inline-block;
+    margin-top: 10%;
+}
+#organic-nav>#organic-nav-button{
+    margin-bottom: 2rem;
+    border-top-right-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
+    padding-block: 0.8rem;
+}
+#organic-nav>#organic-nav-button::before{
+    content: '>';
+}
+#organic-nav>div{
+    background-color: #fff;
+    color: #000;
+    font-size: x-large;
+    text-align: center;
+    padding-right: 2rem;
+}
+
+#organic-nav>div>div>span{
+    padding: 1rem;
+}
+#organic-nav>div{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#organic-nav>div>ul{
+    list-style: none;
+    text-align: start;
+    
+}
+#organic-nav>div>ul>li{
+    padding: 0.6rem;
+    
+}
+#organic-nav>div>ul>li:first-child::before{
+   content: "< ";
+}
+#formfood-card{
+    width: 18%;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    border-radius: 1rem;
+}
+#formfood-card div{
+    padding: 1rem;
+    vertical-align: bottom;
+    
+}
+#formfood-card>div>span{
+    padding: 5px;
+    padding-block: 10px;
+    border-radius: 50%;
+    background-color: red;
+    font-size: 0.8rem;
+    float: inline-end;
+    margin-top: 1rem;
+    margin-right: 0.8rem;
+}
+#formfood-card>div>img{
+    clear: both;
+    margin-top: 1rem;
+}
+#formfood-card>div>div{
+    display: inline-block;
+    padding: 0.8rem;
+    padding-inline: 2rem;
+    border:1px solid green;
+    border-radius: 50px;
+}
+#formfood{
+    margin-top: 2rem;
+    display: flex;
+    width: 20%;
+}
+#formfood>div{
+    text-align: end;
+    vertical-align: baseline;
+}
+#modi-1{
+    width: 100%;
+    flex: 1;
+}
+#modi-1>ul{
+    list-style: none;
+}
+
+#modi-2{
+    width: 100%;
+    text-align: center;
+    flex: 2;
+    padding-inline: 3rem;
+}
+#modi-2>ul{
+    list-style: none;
+}
+#modi-2>ul>li{
+    text-align: start;
+}
+#modi-2>ul>li::before{
+    content: ">";
+    color: red;
+    font-size: small;
+    margin-right: 5px;
+}
+#modi-3-tatle{
+    font-size: x-large;
+    font-weight: 700;
+    padding-block: 1rem;
+}
+#modi-3{
+    width: 100%;
+    flex: 2;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+#footer{
+    display: flex;
+    align-items: start;
+}
+#footer>ul{
+    list-style: none;
+    display: flex;
+    align-items: start;
+}
+#footer>ul>li{
+    padding: 0.6rem;
+    font-size: medium;
+}

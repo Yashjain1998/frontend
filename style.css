@@ -1,0 +1,164 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.hero-banner {
+  background-image: url("./Images/hero-banner-bg.jpg");
+
+  object-fit: cover;
+}
+.organic-main {
+  color: #fff;
+}
+.organic-farmfood {
+  background-image: url("./Images/we-are-organic-bg.png");
+
+  object-fit: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin-top: 10%;
+}
+.organic-farmfood > div > p {
+  display: inline-block;
+}
+.organic-farmfood > div > p::after {
+  content: "\2014\2014\2014";
+  margin-left: 0.8rem;
+  color: green;
+  font-weight: 400;
+}
+.organic-farmfood > div > p::before {
+  content: "\2014\2014\2014";
+  margin-right: 0.8rem;
+  color: green;
+  font-weight: 400;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: inherit;
+  border: none;
+}
+.main-div {
+  display: inline-block;
+  padding-inline: 2rem;
+  margin-left: 10%;
+}
+.main-div > h1 {
+  font-size: 5rem;
+}
+.main-div > p {
+  font-size: 2rem;
+}
+.main-div > div {
+  display: inline-block;
+  font-weight: 600;
+  padding: 0.8rem;
+  padding-inline: 2rem;
+  border: 1px solid #fff;
+  border-radius: 2rem;
+  margin-top: 2rem;
+}
+.modi-organic-goods {
+  background-color: rgba(238, 228, 228, 0.655);
+  text-align: center;
+  margin-top: 10%;
+  padding-block: 5rem;
+}
+.modi-organic-goods > div > p {
+  display: inline-block;
+}
+.modi-organic-goods > div > p::after {
+  content: "\2014\2014\2014";
+  margin-left: 0.8rem;
+  color: green;
+  font-weight: 400;
+}
+.modi-organic-goods > div > p::before {
+  content: "\2014\2014\2014";
+  margin-right: 0.8rem;
+  color: green;
+  font-weight: 400;
+}
+.organic-card div {
+  text-align: center;
+}
+.organic-card ul {
+  list-style: none;
+}
+.organic-card ul #formfood {
+  width: 100%;
+}
+.formfood-list h4 {
+  text-align: start;
+}
+.farmfood {
+  background-image: url("./Images/newslatter-bg.png");
+    height: 300px;
+  object-fit: cover;
+}
+.farmfood > div {
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+.farmfood > div input {
+  width: 30%;
+  margin-inline: 3rem;
+  padding: 1rem;
+  border-radius: 5rem;
+}
+.farmfood > div button {
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  font-size: x-large;
+  font-weight: 600;
+  border: 0.2rem solid green;
+}
+.bootam-card>div{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.footer {
+  background-color: rgb(206, 205, 205);
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.footer>p{
+    padding: 1rem;
+    font-size: larger;
+    font-weight: 200;
+}
+.footer>p span{
+    color: red;
+}
+.footer>p>strong{
+    font-size: x-large;
+}
+.footer>p::before{
+    content: '@';
+}
+
+.footer>ul{
+    padding: 0.6rem;
+}
+.footer>ul>li{
+    padding: 1.5rem;
+}
+.footer>ul>li::after{
+    content: '|';
+    margin-inline: 1.5rem;
+}
+.footer>ul>li:last-child::after{
+    content: '';
+}
